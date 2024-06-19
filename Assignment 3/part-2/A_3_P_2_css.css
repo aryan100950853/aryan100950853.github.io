@@ -5,6 +5,14 @@
 	-->
 html {
   font-family: sans-serif;
+  height: 100%
 }
 
 /* Your CSS below here */
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
