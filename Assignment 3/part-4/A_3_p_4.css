@@ -2,7 +2,7 @@
  Name: Aryankumar Panchal 
  Date: 2024/06/19
  Description: Assignment_3 Part-4 css file
- 
+
  -->
 body {
     background-color: #fff;
@@ -27,6 +27,7 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 980px;
+	gap:20px;
   }
   
   nav {
@@ -38,7 +39,7 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
-	
+	display:flex;
   }
   
   nav a {
@@ -55,4 +56,5 @@ body {
 
   .feature {
       width: 200px;
+	  float:left
   }
