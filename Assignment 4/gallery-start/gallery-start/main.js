@@ -22,7 +22,17 @@ const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
+// Array of image filenames
+const imageFilenames = ['pic1.jpg', 'pic2.jpg', 'pic3.jpg', 'pic4.jpg', 'pic5.jpg'];
 
+// Object for alternative text
+const altText = {
+  'pic1.jpg': 'Closeup of a blue human eye',
+  'pic2.jpg': 'Scenic view of mountains',
+  'pic3.jpg': 'Closeup of a flower',
+  'pic4.jpg': 'Beautiful sunset over the ocean',
+  'pic5.jpg': 'Cityscape with tall buildings'
+};
 /* Declaring the alternative text for each image file */
 
 /* Looping through images */
