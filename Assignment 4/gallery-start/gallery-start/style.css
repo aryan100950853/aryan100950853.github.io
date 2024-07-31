@@ -1,3 +1,20 @@
+/*
+
+         Name: AryanKumar Panchal
+
+         File: Style.css
+
+         Date: 2024/07/31
+        This CSS file lays out an image gallery with alignment set to center 
+        and image viewing area of 640 pixels by 480 pixels. This is, in particular, 
+        styles for a darkening overlay, a button that can be made to any size with 
+        a customizable text, and horizontal rows of thumbnail images. The h1 has a 
+        class which is used to center it as well as choose a color and font for it,
+        an a similar operation is done to the body The .overlay has a background 
+        color that fades in to make it look more interesting and the button has an 
+        on hover effect to make exist to add some interactivity to the layout.
+
+*/
 h1 {
   font-family: helvetica, arial, sans-serif;
   text-align: center;
