@@ -33,13 +33,17 @@ const altText = {
   'pic4.jpg': 'Beautiful sunset over the ocean',
   'pic5.jpg': 'Cityscape with tall buildings'
 };
-/* Declaring the alternative text for each image file */
+
 
 /* Looping through images */
-
+imageFilenames.forEach(filename => {
 const newImage = document.createElement('img');
-newImage.setAttribute('src', xxx);
-newImage.setAttribute('alt', xxx);
+newImage.setAttribute('src','image/${filename}');
+newImage.setAttribute('alt', altText[filename]);
 thumbBar.appendChild(newImage);
-
+newImage.addEventListener('click', () => {
+    displayedImage.setAttribute('src', newImage.getAttribute('src'));
+    displayedImage.setAttribute('alt', newImage.getAttribute('alt'));
+  });
+})
 /* Wiring up the Darken/Lighten button */
