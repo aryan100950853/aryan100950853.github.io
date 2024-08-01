@@ -1,3 +1,17 @@
+/*
+Name : AryanKumar Panchal
+
+Date : 2024/08/01
+
+File: style(1).css
+
+This CSS file is used to style the HTML page: it sets margins 
+to zero for all and body element to take the full height.
+It changes the modern font of the whole page and eradicates
+scroll bars. The placement of the <h1> is above the fold and 
+floated to the right corner of the page with a sharp transparent 
+color with white glowing text-shadow for better appearance on the movie like dynamic background.
+*/
 html, body {
   margin: 0;
 }
