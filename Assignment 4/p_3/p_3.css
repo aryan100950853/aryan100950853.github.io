@@ -1,3 +1,15 @@
+/*
+Name : AryanKumar Panchal
+
+Date : 2024/01/08
+
+File : p_3.css
+
+      The CSS of the page removes margins and disables scroll bars 
+      to fully take over the screen space. It aligns the h1 header 
+      to the right, and sets it to have a transparent color and 
+      white text shadow so as to bring the focus to the canvas while keeping the header unobtrusive.
+*/
 html, body {
   margin: 0;
 }
