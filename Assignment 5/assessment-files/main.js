@@ -1,3 +1,13 @@
+/**
+ *      Name: Aryankumar Panchal
+
+         File: main.js
+
+         Date: 2024/08/08
+
+        Manages interactive features and dynamic content on the webpage.
+
+ */
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
