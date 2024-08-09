@@ -14,8 +14,18 @@ const showHideBtn = document.querySelector('.show-hide');
 const commentWrapper = document.querySelector('.comment-wrapper');
 
 commentWrapper.style.display = 'none';
+showHideBtn.setAttribute('tabindex', '0');
 
 showHideBtn.onclick = function() {
+  toggleComments();
+};
+showHideBtn.onkeypress = function(event) {
+  if (event.key === 'Enter') {
+    toggleComments();
+  }
+};
+
+function toggleComments(){
   let showHideText = showHideBtn.textContent;
   if(showHideText === 'Show comments') {
     showHideBtn.textContent = 'Hide comments';
@@ -50,3 +60,4 @@ form.onsubmit = function(e) {a
   nameField.value = '';
   commentField.value = '';
 }
+ 
